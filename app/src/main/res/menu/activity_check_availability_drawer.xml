@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_view_profile"
+            android:icon="@drawable/ic_action_user"
+            android:title="View Profile" />
+        <item
+            android:id="@+id/nav_check_tool"
+            android:icon="@drawable/ic_action_search"
+            android:title="Check Tool Availability" />
+        <item
+            android:id="@+id/nav_make_reservation"
+            android:icon="@drawable/ic_action_add"
+            android:title="Make Reservation" />
+    </group>
+
+</menu>

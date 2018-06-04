@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_pickup"
+            android:icon="@drawable/ic_action_arrow_top"
+            android:title="Pick-up Reservation" />
+        <item
+            android:id="@+id/nav_dropoff"
+            android:icon="@drawable/ic_action_arrow_bottom"
+            android:title="Drop-off Reservation" />
+        <item
+            android:id="@+id/nav_service_order"
+            android:icon="@drawable/ic_assignment"
+            android:title="Service Order" />
+        <item
+            android:id="@+id/nav_add_tool"
+            android:icon="@drawable/ic_action_add"
+            android:title="Add New Tool" />
+        <item
+            android:id="@+id/nav_sell_tool"
+            android:icon="@drawable/ic_attach_money"
+            android:title="Sell Tool" />
+        <item
+            android:id="@+id/nav_reports"
+            android:icon="@drawable/ic_list"
+            android:title="Generate Reports" />
+    </group>
+</menu>
